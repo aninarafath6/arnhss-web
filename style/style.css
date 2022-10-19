@@ -1,0 +1,203 @@
+/* reset styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+/* hyper link style */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    position: relative;
+
+}
+
+::selection {
+    background-color: green;
+    color: white;
+}
+
+img {
+    object-fit: cover;
+}
+
+.logo,
+.logo span {
+
+    font-family: fantasy;
+
+}
+
+
+
+/* header style */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    height: 100px;
+
+}
+
+
+
+.menus {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+
+}
+
+.menus li {
+    transition: .5s ease;
+}
+
+.menus li:hover {
+    letter-spacing: 1px;
+    color: green;
+}
+
+.menus li a:hover {
+    color: green;
+}
+
+main {
+    display: flex;
+    padding: 100px;
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.left img {
+    width: 32vw;
+    height: 60vh;
+    object-fit: cover;
+
+
+}
+
+.right p {
+
+    padding: 20px 0;
+    padding-right: 80px;
+    font-size: 16px;
+
+}
+
+.right h1 {
+    font-size: 30px;
+
+}
+
+.right .a {
+    padding: 10px 17px;
+    transition: .5s ease;
+    background: #729d4c;
+    border: none;
+    color: white;
+
+}
+
+.right .a:hover {
+    padding: 10px 20px;
+    letter-spacing: 1px;
+
+
+}
+
+.mrq {
+    width: 300px;
+    right: 0;
+}
+
+marquee {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    font-size: 16px
+}
+
+.sm-grd {
+    width: 28%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.abt-right {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* .imgs img {
+    position: relative;
+} */
+
+
+
+@media only screen and (max-width:1024px) {
+    main {
+        padding: 50px;
+    }
+
+    .sm-grd {
+        width: 30%;
+    }
+
+}
+
+@media only screen and (max-width:786px) {
+    main {
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    .right p {
+        padding-right: 0;
+        padding-top: 40px;
+    }
+
+    mark {
+        background-color: transparent;
+    }
+
+    .imgs {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left img {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+
+    }
+
+    .sm-grd {
+        width: 32%;
+        height: 90%;
+
+
+    }
+
+    marquee {
+        display: none;
+    }
+}
