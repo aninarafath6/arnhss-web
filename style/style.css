@@ -173,6 +173,7 @@ marquee {
     flex-direction: column-reverse;
     gap: 1px;
     display: block;
+    margin-bottom: 20px;
 
   }
   
