@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="./style/index.css">
 	<title>Ar Nagar Hss</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -14,7 +15,7 @@
 	<header>
 		<!-- <h1 class="logo">Magazine</h1>
 		 -->
-		 <img src="./assets/logo-2.jpeg" class="logo" alt="">
+		 <img src="./assets/logo-2.jpeg" data-aos="flip-right" class="logo" alt="">
 		<ul class="menus">
 			<li><a href="#l">Home</a></li>
 			<li><a href="./magazine.html"> Magazine</a></li>
@@ -34,16 +35,16 @@
 			</p>
 
 			<div style="margin-top:50px" class="imgs">
-				<img src="./assets/New Note 2.jpeg" alt="hero image" class="sm-grd" />
-				<img src="./assets/New Note.jpeg"
+				<img data-aos="fade-up" src="./assets/New Note 2.jpeg" alt="hero image" class="sm-grd" />
+				<img data-aos="fade-up"  src="./assets/New Note.jpeg"
 					alt="hero image" class="sm-grd" />
-				<img src="./assets/New Note 3.jpeg" alt="hero image" class="sm-grd" />
+				<img  data-aos="fade-up" src="./assets/New Note 3.jpeg" alt="hero image" class="sm-grd" />
 			</div>
 
 		</div>
 		<!-- left image section   -->
 		<div class="left">
-			<img src="./assets/54523801_1111126015729237_7096144893436755968_n.jpg" alt="hero image" />
+			<img src="./assets/54523801_1111126015729237_7096144893436755968_n.jpg" data-aos="flip-left" alt="hero image" />
 		</div>
 
 	</main>
@@ -53,7 +54,7 @@
 	<main style="padding-top:0;">
 		<!-- left image section   -->
 		<div class=" left">
-			<img src="./assets/New Note 4.jpeg" alt="hero image" />
+			<img src="./assets/New Note 4.jpeg" data-aos="flip-left" alt="hero image" />
 		</div>
 
 
@@ -70,5 +71,11 @@
 	</marquee>
 
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init({
+  duration: 1200,
+})
 
+	</script>
 </html>

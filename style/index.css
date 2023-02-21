@@ -236,7 +236,7 @@ marquee {
     .right p{
         font-size: 12px;
     }
-    .left image{
+    .left img{
         visibility: hidden;
     }
 }
