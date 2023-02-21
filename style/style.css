@@ -83,7 +83,7 @@ main {
   /* background-color: red; */
   width: 50vw;
   height: 98%;
-  width: 52vw;
+  width: 100vw;
   height: 100%;
   object-fit: cover;
 }
@@ -131,12 +131,9 @@ marquee {
   object-fit: cover;
 }
 
-.abt-right {
-  /* display: flex;
-  flex-direction: column; */
-}
 .imgs {
-display: grid;
+display: flex;
+flex-wrap: wrap;
 
   gap: 50px;
 }
@@ -208,6 +205,8 @@ display: grid;
     justify-content: space-between;
     flex-wrap: wrap;
     gap:30px;
+    display: flex;
+    flex-direction: column;
   }
 
   .left img {
@@ -227,6 +226,7 @@ display: grid;
   .styleme{
     width: 100%;
     background: white;
+   
   }
   .right{
     margin-top: 100px;
