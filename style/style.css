@@ -136,7 +136,7 @@ marquee {
   flex-direction: column; */
 }
 .imgs {
-  display: flex;
+display: grid;
 
   gap: 50px;
 }
@@ -240,6 +240,20 @@ margin-top: 29px;
     width: 100px;
     height: 100px;
 }
+}
+
+
+@media only screen and (max-width:850px) {
+
+    .menus{
+        font-size: 14px;
+    margin-top: 29px;
+    }
+
+    /* marquee {
+        display: none;
+    } */
+    
 }
 
 @media  screen and (max-width: 500px) {
