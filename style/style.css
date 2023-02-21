@@ -158,6 +158,9 @@ marquee {
     flex-direction: column;
     gap: 25px;
 }
+.control-bottom{
+    visibility: hidden;
+}
 @media only screen and (max-width: 1024px) {
   main {
     padding: 50px;
