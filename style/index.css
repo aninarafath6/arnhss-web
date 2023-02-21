@@ -230,4 +230,7 @@ marquee {
         font-size: 14px;
     margin-top: 29px;
     }
+    .right p{
+        font-size: 12px;
+    }
 }
