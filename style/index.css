@@ -248,4 +248,7 @@ marquee {
     .left .hide-image{
         visibility: hidden;
     }
-}
+    .lft-margin{
+        margin-left: 0px;
+    }
+    }
