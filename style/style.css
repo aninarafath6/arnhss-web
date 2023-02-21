@@ -206,3 +206,9 @@ marquee {
     display: none;
   }
 }
+
+@media  screen and (max-width: 430px) {
+    .imgs{
+        flex-wrap: nowrap;
+    }
+}
