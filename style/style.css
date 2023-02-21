@@ -164,7 +164,7 @@ marquee {
   }
 }
 
-@media only screen and (max-width: 786px) {
+@media  screen and (max-width: 786px) {
   main {
     flex-direction: column;
     gap: 1px;
@@ -188,6 +188,7 @@ marquee {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap:30px;
   }
 
   .left img {
