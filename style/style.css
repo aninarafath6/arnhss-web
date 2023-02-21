@@ -36,7 +36,7 @@ header {
   align-items: center;
   justify-content: space-around;
   padding: 20px 0;
-  height: 100px;
+  height: 150px;
 }
 
 .menus {
@@ -63,7 +63,7 @@ main {
   display: flex;
   padding: 100px;
   padding-top: 10px;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 150px);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -149,6 +149,11 @@ marquee {
   font-weight: bold;
   text-align: center;
   padding: 0;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
 }
 
 .avatar{
