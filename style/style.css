@@ -61,14 +61,16 @@ header {
 
 main {
   display: flex;
-  padding: 100px;
+
   padding-top: 10px;
   height: calc(100vh - 150px);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-right: 0;
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
+  padding-right: 100px;
+  margin-bottom: 20px;
 }
 
 .left {
@@ -95,6 +97,7 @@ main {
 .right h1 {
   font-size: 30px;
 }
+
 
 .right .a {
   padding: 10px 17px;
@@ -163,9 +166,9 @@ marquee {
     flex-direction: column;
     gap: 25px;
 }
-.control-bottom{
-    visibility: hidden;
-}
+
+
+
 @media only screen and (max-width: 1024px) {
   main {
     padding: 50px;
