@@ -124,10 +124,13 @@ main {
 
 marquee {
     position: fixed;
-    bottom: 10px;
+    bottom: 0;
     left: 0;
     right: 0;
-    font-size: 16px
+    font-size: 16px;
+    background-color: white ;
+    padding: 5px;
+    padding-bottom: 5px;
 }
 
 .sm-grd {
@@ -232,5 +235,8 @@ marquee {
     }
     .right p{
         font-size: 12px;
+    }
+    .left image{
+        visibility: hidden;
     }
 }
