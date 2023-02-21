@@ -206,6 +206,10 @@ marquee {
         width: 100px;
         height: 100px;
     }
+    .menus{
+        font-size: 14px;
+    margin-top: 29px;
+    }
 
     marquee {
         display: none;

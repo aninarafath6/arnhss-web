@@ -232,6 +232,14 @@ marquee {
     margin-top: 100px;
 
   }
+  .menus{
+    font-size: 14px;
+margin-top: 29px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
 }
 
 @media  screen and (max-width: 500px) {
