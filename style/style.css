@@ -246,4 +246,12 @@ margin-top: 29px;
     .imgs{
         flex-wrap: nowrap;
     }
+    .logo{
+        width: 85px;
+        height: 85px;
+    }
+    .menus{
+        font-size: 14px;
+    margin-top: 29px;
+    }
 }

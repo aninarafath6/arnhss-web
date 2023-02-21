@@ -203,8 +203,8 @@ marquee {
 
     }
     .logo{
-        width: 100px;
-        height: 100px;
+        width: 110px;
+        height: 110px;
     }
     .menus{
         font-size: 14px;
@@ -215,4 +215,19 @@ marquee {
         display: none;
     }
     
+}
+
+
+@media  screen and (max-width: 500px) {
+    .imgs{
+        flex-wrap: nowrap;
+    }
+    .logo{
+        width: 85px;
+        height: 85px;
+    }
+    .menus{
+        font-size: 14px;
+    margin-top: 29px;
+    }
 }
